@@ -5,20 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 2.3.1
 
-* System dependencies
+* System dependencies: sqlite.
 
-* Configuration
+* Please run "bundle install" after download repo. 
+* If you are using rvm, I have auto created gemset(article_gems) in code base. In that case run "gem install bundler" and then "bundle install".
 
-* Database creation
+* Database creation: rake db:migrate
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Database test population: rake db:seed
